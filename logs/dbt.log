@@ -42,3 +42,32 @@ Runtime Error
 [0m22:43:31.791988 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247539A32F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024753BE15E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024755C92930>]}
 [0m22:43:31.791988 [debug] [MainThread]: Flushing usage events
 [0m22:43:32.842887 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:54:27.686334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A199B9D250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A19C3AD910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A19C3AFFB0>]}
+
+
+============================== 22:54:27.771015 | a4e2635f-34cb-4ccd-85c9-6ef7807482ab ==============================
+[0m22:54:27.771015 [info ] [MainThread]: Running with dbt=1.9.2
+[0m22:54:27.771015 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\ethio\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init my_project', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:54:27.831369 [debug] [MainThread]: Starter project path: C:\Users\ethio\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m22:54:27.910050 [info ] [MainThread]: 
+Your new dbt project "my_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:54:27.926580 [info ] [MainThread]: Setting up your profile.
+[0m22:55:22.160941 [info ] [MainThread]: Profile my_project written to C:\Users\ethio\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:55:22.160941 [debug] [MainThread]: Command `dbt init` succeeded at 22:55:22.160941 after 54.67 seconds
+[0m22:55:22.160941 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A19C02ACC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A199F71EE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A19C673440>]}
+[0m22:55:22.160941 [debug] [MainThread]: Flushing usage events
+[0m22:55:23.262869 [debug] [MainThread]: An error was encountered while trying to flush usage events
