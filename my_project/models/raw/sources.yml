@@ -1,0 +1,8 @@
+# models/sources.yml
+version: 2
+sources:
+  - name: raw
+    schema: public
+    tables:
+      - name: medical_database
+        description: "Raw scraped Telegram medical data"
