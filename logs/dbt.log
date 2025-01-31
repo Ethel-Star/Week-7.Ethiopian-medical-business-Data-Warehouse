@@ -1,0 +1,44 @@
+[0m22:34:55.648674 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CE7A97DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CE7A97080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CE7A94AD0>]}
+
+
+============================== 22:34:55.658094 | 12d233da-e958-4f96-ba5c-7df0c8ed4513 ==============================
+[0m22:34:55.658094 [info ] [MainThread]: Running with dbt=1.9.2
+[0m22:34:55.660417 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\ethio\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init my_project', 'send_anonymous_usage_stats': 'True'}
+[0m22:34:55.719831 [debug] [MainThread]: Starter project path: C:\Users\ethio\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m22:34:55.867320 [info ] [MainThread]: 
+Your new dbt project "my_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:34:55.871807 [info ] [MainThread]: Setting up your profile.
+[0m22:36:41.962401 [info ] [MainThread]: Profile my_project written to C:\Users\ethio\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:36:41.964463 [debug] [MainThread]: Command `dbt init` succeeded at 22:36:41.964463 after 106.72 seconds
+[0m22:36:41.965461 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CE7E51070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CE7A7AED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CE7A7A7B0>]}
+[0m22:36:41.965461 [debug] [MainThread]: Flushing usage events
+[0m22:36:48.218529 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:43:31.729503 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247539A32F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024753BE15E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024755BB8E30>]}
+
+
+============================== 22:43:31.776366 | c37e2fa4-7a9c-458f-8abe-0cde85018f8c ==============================
+[0m22:43:31.776366 [info ] [MainThread]: Running with dbt=1.9.2
+[0m22:43:31.776366 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ethio\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:43:31.776366 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path E:\DS+ML\AIM3\Week-7\Week-7.Ethiopian-medical-business-Data-Warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:43:31.776366 [debug] [MainThread]: Command `dbt run` failed at 22:43:31.776366 after 0.32 seconds
+[0m22:43:31.791988 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247539A32F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024753BE15E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024755C92930>]}
+[0m22:43:31.791988 [debug] [MainThread]: Flushing usage events
+[0m22:43:32.842887 [debug] [MainThread]: An error was encountered while trying to flush usage events
